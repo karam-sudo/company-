@@ -1,0 +1,272 @@
+body{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/***************************HOME HEADER********************************/
+
+.home-header{
+    height: 200px; 
+}
+
+#home-nav {
+ width: 100%;
+ height: 500px;
+ padding: 0;
+ margin: 0;
+ background-image: linear-gradient(to bottom, #0f2b49, rgb(238,147, 216 ,45%)), url(../images/advantges1.jpeg);
+ background-size: cover;
+ clip-path: polygon(0 0, 100% 0, 100% 62%, 0 98%);
+ display: flex;
+ justify-content: center;
+
+}
+#home-nav .navbar{
+    width: 100%;
+    height: auto;
+}
+#home-nav .navbar .nav-link, .navbar-brand{
+    color: #fff;
+    background-color: transparent;
+   
+}
+
+.header-desc{
+    width: 100%;
+    color: rgb(255, 255, 255);
+   
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: linear-gradient(to bottom, #48488af3, #be51b0,#000);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    }
+    
+    .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #353131;
+    display: block;
+    transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+    color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    }
+    
+    @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+/***************************ABOUT US***************************/
+#about-us{
+    width:90%;
+    height: auto;
+    padding:1rem;
+    margin:5rem auto;
+   
+}
+#about-us h2{
+    margin: 1rem ;
+    font-weight: bold;
+    color: #2f0733;
+    font-family:serif;
+}
+#about-us p{
+    margin: 1rem 2rem 4rem ;
+    font-size: 15px;
+    font-weight: 300;
+    color: #000;
+    font-family:serif; 
+}
+
+#about-us .about-desc {
+  
+    height: 260px;
+    padding:2rem 1rem;
+    margin: 3rem auto;
+    text-align: center;
+    box-shadow: 14px -14px 0px 0px #e8aaee;
+    text-align: center;
+    border: 2px dashed #000;
+
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+}
+#about-us .about-desc h4{
+    font-weight: bold;
+    color:#2f0733;
+    font-family:cursive;
+}
+
+ .about-desc p{
+   margin-top: 3rem;
+   font-family:cursive;
+   font-size: 25px;
+   color: rgb(36, 30, 30);
+}
+
+
+
+
+
+/***************************SERVICES***************************/
+#services{
+   width: 100%;
+   height: auto;
+   padding: 1rem;
+   margin: 5rem 0px;
+   background-image: linear-gradient(to bottom, #0f2b49, rgb(238,147, 216 ,45%)), url(../images/7.jpg);
+   background-size: cover;
+   background-attachment: fixed;
+    color: #fff;
+}
+
+#services .service-desc{
+    width:100%;
+    height: 300px;
+    background-color: rgb(23,23,26 , 36%);
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    margin: 1rem 0px;
+    padding: 1rem;
+    text-align: center;
+}
+#services .service-desc h5{
+    color:#2f0733 ;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
+#services .service-desc p{
+    font-size: 20px;
+    margin-top: 2rem;
+}
+
+
+
+/**************************TEAM*****************************/
+#team{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin: 5rem 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+ 
+}
+#team h1{
+    margin: 3rem auto;
+    width: 300px;
+    color:#2f0733 ;
+}
+#team h2{
+    margin-bottom: 3rem;
+   text-align: center;
+}
+#team .card{
+    width: 90%;
+    height: 400px;
+    padding: 2rem ;
+    margin:3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    border-top-right-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+    position: relative;
+    box-shadow: -13px 15px 18px -13px #d7a3eed1;
+}
+#team .card:hover{
+    background-color: #72597cd1;
+}
+#team .card img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -60px;
+    border-radius: 50%;
+}
+#team .card h1{
+    margin-top: 2rem;
+    font-weight: bold;
+    color:#2f0733 ;
+} 
+
+#team .card p{
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #3e3e42;
+}
+#team .card i{
+    color:#e8aaee;
+    font-size: 1.5rem;
+    margin: 0.5rem;
+}
+#team .card i:hover{
+    color:#2f0733;
+}
+
+
+
+
+
+/***************************PARTNERS********************************/
+#partners{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    margin: 0x;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #0f2b49, rgb(238,147, 216 ,45%)), url(../images/10.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#partners h1{
+    color:#2f0733 ;
+    font-weight: bold;
+    margin: 3rem auto;
+    width: 300px;
+    font-family: serif;
+}
+#partners img{
+    width: 300px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/***************************FOOTER********************************/
+#footer{
+    width: 100%;
+    height: 600px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #0f2b49, rgb(238,147, 216 ,45%)), url(../images/advantges1.jpeg);
+    background-size: cover;
+    clip-path: polygon(0 68%, 100% 35%, 100% 100%, 0 100%);
+    
+}
